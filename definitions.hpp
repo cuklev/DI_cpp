@@ -3,4 +3,4 @@
 #include "shapes.hpp"
 #include "di.hpp"
 
-MAKE_DEFAULT(Shape,Rect)
+DEFAULT_INSTANCE(Shape,Rect)
