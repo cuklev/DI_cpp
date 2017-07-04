@@ -32,7 +32,9 @@ inline T InjectCallValues(T (*f)(TS...)) {
 
 
 template<typename T>
-T (*FactoryFunc)();
+T (*FactoryFunc)() = []{
+	return T();
+};
 
 #define DEFAULT_FACTORY(t,f) \
 	template<> \
