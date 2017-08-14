@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 #include "definitions.hpp"
 
 int main() {

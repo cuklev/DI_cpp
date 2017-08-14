@@ -1,5 +1,5 @@
 #include "shapes.hpp"
-#include<cmath>
+#include <cmath>
 
 Rect::Rect(double a, double b)
 	: a(a), b(b) {}
